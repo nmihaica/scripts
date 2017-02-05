@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#Last used: Ubuntu 16.04
-#USAGE: after chmoding script
-#./serverBlock.sh <your-domain-here>
+# Last used: Ubuntu 16.04
+# USAGE: after chmoding script type
+# ./serverBlock.sh <your-domain-here>
 domain=$1
 root="/var/www/$domain/html"
 block="/etc/nginx/sites-available/$domain"
